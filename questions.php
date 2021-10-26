@@ -1,4 +1,6 @@
-[
+<?php
+$json =
+'[
     {
         "name": "phone",
         "question": "Phone",
@@ -589,4 +591,7 @@
         "required": true,
         "type": "textarea"
     }
-]
+]';
+
+print_r($json);
+
