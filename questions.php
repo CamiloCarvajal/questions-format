@@ -33,7 +33,7 @@ $json = '[
             "type": "text"
           },
           {
-            "name":"yorName",
+            "id":"yorName",
             "required":true,
             "question":"Your Name",
             "type":"textarea"
