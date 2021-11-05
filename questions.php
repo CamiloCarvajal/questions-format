@@ -8,12 +8,21 @@ $json = '[
             "type": "text"
           },
           {
-            "limit": 40,
             "required": true,
             "min": "18",
             "max": "50",
             "question": "How old are you?",
-            "id": "address-street",
+            "id": "How_old_are_you",
+            "format":"integer",
+            "type": "text"
+          },
+          {
+            "required": true,
+            "min": "100",
+            "max": "500",
+            "question": "Salary expectations?",
+            "id": "salary_expectations",
+            "format":"decimal",
             "type": "text"
           },
           {
@@ -24,12 +33,10 @@ $json = '[
             "type": "text"
           },
           {
-            "max_length": 25,
-            "min_length": 10,
-            "required": true,
-            "question": "City",
-            "id": "address-city",
-            "type": "text"
+            "name":"yorName",
+            "required":true,
+            "question":"Your Name",
+            "type":"textarea"
           },
           {
             "type": "hierarchical",
