@@ -55,6 +55,7 @@ $json = '[
             "hierarchicalOptions": [
               {
                 "id": "countryState_US",
+                "question": "State US",
                 "condition": {
                   "id": "address-countryState",
                   "value": "US"
@@ -288,6 +289,7 @@ $json = '[
               },
               {
                 "id": "countryState_CA",
+                "question": "State Ca",
                 "condition": {
                   "id": "address-countryState",
                   "value": "CA"
@@ -349,123 +351,61 @@ $json = '[
               },
               {
                 "id": "city_CA",
+                "question": "City Ca",
                 "condition": {
                   "id": "countryState_CA",
                   "value": "ON"
                 },
                 "options": [
                   {
-                    "value": "AB",
-                    "label": "Alberta"
+                    "value": "OT",
+                    "label": "Ottawa"
                   },
                   {
-                    "value": "BC",
-                    "label": "British Columbia"
+                    "value": "BR",
+                    "label": "Brampton"
                   },
                   {
-                    "value": "MB",
-                    "label": "Manitoba"
+                    "value": "OA",
+                    "label": "Oakville"
                   },
                   {
-                    "value": "NB",
-                    "label": "New Brunswick"
+                    "value": "OS",
+                    "label": "Oshawa"
                   },
                   {
-                    "value": "NL",
-                    "label": "Newfoundland and Labrador"
+                    "value": "MA",
+                    "label": "Markham"
                   },
                   {
-                    "value": "NT",
-                    "label": "Northwest Territories"
-                  },
-                  {
-                    "value": "NS",
-                    "label": "Nova Scotia"
-                  },
-                  {
-                    "value": "NU",
-                    "label": "Nunavut"
-                  },
-                  {
-                    "value": "ON",
-                    "label": "Ontario"
-                  },
-                  {
-                    "value": "PE",
-                    "label": "Prince Edward Island"
-                  },
-                  {
-                    "value": "QC",
-                    "label": "Quebec"
-                  },
-                  {
-                    "value": "SK",
-                    "label": "Saskatchewan"
-                  },
-                  {
-                    "value": "YT",
-                    "label": "Yukon"
+                    "value": "VA",
+                    "label": "Vaughan"
                   }
                 ]
               },
                {
                 "id": "Adreed_CA",
+                "question": "Adress Ca",
                 "condition": {
                   "id": "city_CA",
-                  "value": "ON"
+                  "value": "OT"
                 },
                 "options": [
                   {
-                    "value": "AB",
-                    "label": "Alberta"
+                    "value": "GB",
+                    "label": "The Glebe"
                   },
                   {
-                    "value": "BC",
-                    "label": "British Columbia"
+                    "value": "PR",
+                    "label": "Preston"
                   },
                   {
-                    "value": "MB",
-                    "label": "Manitoba"
+                    "value": "SH",
+                    "label": "Sandy Hill"
                   },
                   {
-                    "value": "NB",
-                    "label": "New Brunswick"
-                  },
-                  {
-                    "value": "NL",
-                    "label": "Newfoundland and Labrador"
-                  },
-                  {
-                    "value": "NT",
-                    "label": "Northwest Territories"
-                  },
-                  {
-                    "value": "NS",
-                    "label": "Nova Scotia"
-                  },
-                  {
-                    "value": "NU",
-                    "label": "Nunavut"
-                  },
-                  {
-                    "value": "ON",
-                    "label": "Ontario"
-                  },
-                  {
-                    "value": "PE",
-                    "label": "Prince Edward Island"
-                  },
-                  {
-                    "value": "QC",
-                    "label": "Quebec"
-                  },
-                  {
-                    "value": "SK",
-                    "label": "Saskatchewan"
-                  },
-                  {
-                    "value": "YT",
-                    "label": "Yukon"
+                    "value": "LT",
+                    "label": "Lower town"
                   }
                 ]
               }
