@@ -506,7 +506,6 @@ $json = '[
           },
           {
             "required": true,
-            "question": "",
             "type": "client_tos",
             "link": "https://9gag.com/",
             "id": "privacy_policy"
