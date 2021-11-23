@@ -455,174 +455,6 @@ $json = '[
           {
             "type": "select",
             "required": true,
-            "question": "Availability Monday?",
-            "id": "select-28448",
-            "options": [
-              {
-                "value": "1",
-                "label": "AM"
-              },
-              {
-                "value": "2",
-                "label": "PM"
-              },
-              {
-                "value": "3",
-                "label": "All Day"
-              },
-              {
-                "value": "4",
-                "label": "Not Available"
-              }
-            ]
-          },
-          {
-            "type": "select",
-            "required": true,
-            "question": "Availability Tuesday?",
-            "id": "select-28449",
-            "options": [
-              {
-                "value": "1",
-                "label": "AM"
-              },
-              {
-                "value": "2",
-                "label": "PM"
-              },
-              {
-                "value": "3",
-                "label": "All Day"
-              },
-              {
-                "value": "4",
-                "label": "Not Available"
-              }
-            ]
-          },
-          {
-            "type": "select",
-            "required": true,
-            "question": "Availability Wednesday?",
-            "id": "select-28450",
-            "options": [
-              {
-                "value": "1",
-                "label": "AM"
-              },
-              {
-                "value": "2",
-                "label": "PM"
-              },
-              {
-                "value": "3",
-                "label": "All Day"
-              },
-              {
-                "value": "4",
-                "label": "Not Available"
-              }
-            ]
-          },
-          {
-            "type": "select",
-            "required": true,
-            "question": "Availability Thursday?",
-            "id": "select-28451",
-            "options": [
-              {
-                "value": "1",
-                "label": "AM"
-              },
-              {
-                "value": "2",
-                "label": "PM"
-              },
-              {
-                "value": "3",
-                "label": "All Day"
-              },
-              {
-                "value": "4",
-                "label": "Not Available"
-              }
-            ]
-          },
-          {
-            "type": "select",
-            "required": true,
-            "question": "Availability Friday?",
-            "id": "select-28452",
-            "options": [
-              {
-                "value": "1",
-                "label": "AM"
-              },
-              {
-                "value": "2",
-                "label": "PM"
-              },
-              {
-                "value": "3",
-                "label": "All Day"
-              },
-              {
-                "value": "4",
-                "label": "Not Available"
-              }
-            ]
-          },
-          {
-            "type": "select",
-            "required": true,
-            "question": "Availability Saturday?",
-            "id": "select-28453",
-            "options": [
-              {
-                "value": "1",
-                "label": "AM"
-              },
-              {
-                "value": "2",
-                "label": "PM"
-              },
-              {
-                "value": "3",
-                "label": "All Day"
-              },
-              {
-                "value": "4",
-                "label": "Not Available"
-              }
-            ]
-          },
-          {
-            "type": "select",
-            "required": true,
-            "question": "Availability Sunday?",
-            "id": "select-28454",
-            "options": [
-              {
-                "value": "1",
-                "label": "AM"
-              },
-              {
-                "value": "2",
-                "label": "PM"
-              },
-              {
-                "value": "3",
-                "label": "All Day"
-              },
-              {
-                "value": "4",
-                "label": "Not Available"
-              }
-            ]
-          },
-          {
-            "type": "select",
-            "required": true,
             "question": "Were you referred by a current Pizza Hut/Hut American Group team member?",
             "id": "select-28464",
             "options": [
@@ -671,6 +503,13 @@ $json = '[
                 "label": "Texas"
               }
             ]
+          },
+          {
+            "required": true,
+            "question": "",
+            "type": "client_tos",
+            "link": "https://9gag.com/",
+            "id": "privacy_policy"
           }
         ]';
 
