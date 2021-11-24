@@ -523,12 +523,6 @@ $json = '[
                 "label": "Texas"
               }
             ]
-          },
-          {
-            "required": true,
-            "type": "client_tos",
-            "link": "https://9gag.com/",
-            "id": "privacy_policy"
           }
         ]';
 
