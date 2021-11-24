@@ -469,6 +469,26 @@ $json = '[
             ]
           },
           {
+            "type": "multiselect",
+            "required": true,
+            "question": "What is your favorite hobbies?",
+            "id": "select-28464",
+            "options": [
+              {
+                "value": "1",
+                "label": "Exercises, Jogging"
+              },
+              {
+                "value": "2",
+                "label": "Video Games"
+              },
+              {
+                "value": "2",
+                "label": "Reading"
+              }
+            ]
+          },
+          {
             "type": "select",
             "required": true,
             "question": "Have you ever worked for Pizza Hut?",
