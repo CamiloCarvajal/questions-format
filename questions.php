@@ -483,7 +483,7 @@ $json = '[
                 "label": "Video Games"
               },
               {
-                "value": "2",
+                "value": "3",
                 "label": "Reading"
               }
             ]
