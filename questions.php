@@ -528,6 +528,7 @@ $json = '[
             "required": true,
             "type": "client_tos",
             "link": "https://9gag.com/",
+            "question":"I have read the Privacy Policy and confirm that Client store my personal details to be able to process my job application.",
             "id": "privacy_policy"
           }
         ]';
