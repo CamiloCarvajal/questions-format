@@ -55,6 +55,7 @@ $json = '[
             "hierarchicalOptions": [
               {
                 "id": "countryState_US",
+                "type": "select",
                 "condition": {
                   "id": "address-countryState",
                   "value": "US"
@@ -288,6 +289,7 @@ $json = '[
               },
               {
                 "id": "countryState_CA",
+                "type": "select",
                 "condition": {
                   "id": "address-countryState",
                   "value": "CA"
@@ -349,6 +351,7 @@ $json = '[
               },
               {
                 "id": "city_CA",
+                "type": "select",
                 "condition": {
                   "id": "countryState_CA",
                   "value": "ON"
@@ -382,6 +385,7 @@ $json = '[
               },
                {
                 "id": "Adreed_CA",
+                "type": "select",
                 "condition": {
                   "id": "city_CA",
                   "value": "OT"
