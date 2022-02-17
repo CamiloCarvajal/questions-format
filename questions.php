@@ -460,6 +460,7 @@ $json = '[
             "type":"date",
             "required":true,
             "question":"If Yes, When?",
+            "format":"dd/MM/yyyy",
             "id":"text-28461",
             "condition":{
                "id":"select-28465",
@@ -475,7 +476,7 @@ $json = '[
              "id":"select-28465",
              "value":"1"
            }
-          },
+        },
           {
             "required": true,
             "type": "client_tos",
