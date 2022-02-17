@@ -423,74 +423,6 @@ $json = '[
           {
             "type": "select",
             "required": true,
-            "question": "If hired, can you show proof of your legal rights to work in the United States?",
-            "id": "select-28446",
-            "options": [
-              {
-                "value": "1",
-                "label": "Yes"
-              },
-              {
-                "value": "2",
-                "label": "No"
-              }
-            ]
-          },
-          {
-            "type": "select",
-            "required": true,
-            "question": "Are you 18 years of age or older?",
-            "id": "select-28447",
-            "options": [
-              {
-                "value": "1",
-                "label": "Yes"
-              },
-              {
-                "value": "2",
-                "label": "No"
-              }
-            ]
-          },
-          {
-            "type": "select",
-            "required": true,
-            "question": "Were you referred by a current Pizza Hut/Hut American Group team member?",
-            "id": "select-28464",
-            "options": [
-              {
-                "value": "1",
-                "label": "Yes"
-              },
-              {
-                "value": "2",
-                "label": "No"
-              }
-            ]
-          },
-          {
-            "type": "multiselect",
-            "required": true,
-            "question": "What is your favorite hobbies?",
-            "id": "select-28464",
-            "options": [
-              {
-                "value": "1",
-                "label": "Exercises, Jogging"
-              },
-              {
-                "value": "2",
-                "label": "Video Games"
-              },
-              {
-                "value": "3",
-                "label": "Reading"
-              }
-            ]
-          },
-          {
-            "type": "select",
-            "required": true,
             "question": "Have you ever worked for Pizza Hut?",
             "id": "select-28465",
             "options": [
@@ -523,6 +455,26 @@ $json = '[
                 "label": "Texas"
               }
             ]
+          },
+          {
+            "type":"date",
+            "required":true,
+            "question":"If Yes, When?",
+            "id":"text-28461",
+            "condition":{
+               "id":"select-28465",
+               "value":"1"
+            },
+         },
+         {
+          "type":"text",
+          "required":true,
+          "question":"If Yes, What is the name of the employer?",
+          "id":"text-28461",
+          "condition":{
+             "id":"select-28465",
+             "value":"1"
+          },
           },
           {
             "required": true,
