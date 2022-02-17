@@ -464,7 +464,7 @@ $json = '[
             "condition":{
                "id":"select-28465",
                "value":"1"
-            },
+            }
          },
          {
           "type":"text",
@@ -474,7 +474,7 @@ $json = '[
           "condition":{
              "id":"select-28465",
              "value":"1"
-          },
+           }
           },
           {
             "required": true,
