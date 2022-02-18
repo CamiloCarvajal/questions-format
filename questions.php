@@ -499,11 +499,15 @@ $json = '[
             "options": [
               {
                 "value": "1",
-                "label": "California"
+                "label": "Not satisfied"
               },
               {
                 "value": "2",
-                "label": "Texas"
+                "label": "Satisfied"
+              },
+              {
+                "value": "3",
+                "label": "Very satisfied"
               }
             ]
         },
