@@ -461,7 +461,7 @@ $json = '[
             "required":true,
             "question":"If Yes, When?",
             "format":"dd/MM/yyyy",
-            "id":"text-28461",
+            "id":"text-28458",
             "condition":{
                "id":"select-28465",
                "value":"1"
@@ -470,8 +470,8 @@ $json = '[
          {
           "type":"text",
           "required":true,
-          "question":"If Yes, What is the name of the employer?",
-          "id":"text-28461",
+          "question":"What is the name of the employer?",
+          "id":"text-28466",
           "condition":{
              "id":"select-28465",
              "value":"1"
@@ -480,8 +480,8 @@ $json = '[
          {
           "type":"textarea",
           "required":true,
-          "question":"If Yes, What is the name of the employer?",
-          "id":"text-28461",
+          "question":"How was that experience?",
+          "id":"text-28469",
           "condition":{
              "id":"select-28465",
              "value":"1"
@@ -490,7 +490,7 @@ $json = '[
         {
           "type":"multiselect",
           "required":false,
-          "question":"If Yes, What was your level of satisfaction working there??",
+          "question":"What was your level of satisfaction working there??",
           "id":"text-28461",
           "condition":{
              "id":"select-28465",
