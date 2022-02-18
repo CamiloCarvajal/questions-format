@@ -477,6 +477,36 @@ $json = '[
              "value":"1"
            }
         },
+         {
+          "type":"textarea",
+          "required":true,
+          "question":"If Yes, What is the name of the employer?",
+          "id":"text-28461",
+          "condition":{
+             "id":"select-28465",
+             "value":"1"
+           }
+        },
+        {
+          "type":"multiselect",
+          "required":false,
+          "question":"If Yes, What was your level of satisfaction working there??",
+          "id":"text-28461",
+          "condition":{
+             "id":"select-28465",
+             "value":"1"
+           },
+            "options": [
+              {
+                "value": "1",
+                "label": "California"
+              },
+              {
+                "value": "2",
+                "label": "Texas"
+              }
+            ]
+        },
           {
             "required": true,
             "type": "client_tos",
