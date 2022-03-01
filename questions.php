@@ -512,12 +512,6 @@ $json = '[
             ]
         },
         {
-          "required": true,
-          "type": "client_tos",
-          "link": "https://9gag.com/",
-          "id": "privacy_policy"
-        },
-        {
           "id":"a4211852be42dab83d22afc4f200559b",
           "type":"hierarchical",
           "required":true,
@@ -3156,6 +3150,12 @@ $json = '[
               }
             }
           ]
+        },
+        {
+          "required": true,
+          "type": "client_tos",
+          "link": "https://9gag.com/",
+          "id": "privacy_policy"
         }
         ]';
 
