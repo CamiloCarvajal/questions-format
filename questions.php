@@ -1092,11 +1092,11 @@ $json = '[
               "type": "select",
               "options": [
                 {
-                  "value": "0",
+                  "value": "No",
                   "label": "No"
                 },
                 {
-                  "value": "1",
+                  "value": "Yes",
                   "label": "Yes"
                 }
               ],
