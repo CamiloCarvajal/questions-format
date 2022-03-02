@@ -4,7 +4,7 @@ $json = '[
             "limit": 40,
             "required": true,
             "question": "Street",
-            "id": "address-street",
+            "id": "address-street-1",
             "type": "text"
           },
           {
@@ -418,7 +418,7 @@ $json = '[
             "limit": 6,
             "validation": "zip",
             "type": "text",
-            "id": "address-zip"
+            "id": "address-zip-1"
           },
           {
             "type": "select",
