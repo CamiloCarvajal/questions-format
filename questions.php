@@ -804,11 +804,11 @@ $json = '[
           "question": "Add another?",
           "options": [
             {
-              "value": "0",
+              "value": "No",
               "label": "No"
             },
             {
-              "value": "1",
+              "value": "Yes",
               "label": "Yes"
             }
           ],
@@ -863,7 +863,7 @@ $json = '[
               ],
               "condition": {
                 "id": "ac622a20844b57ff76299f7b3b2c7886",
-                "value": " Yes"
+                "value": "Yes"
               }
             },
             {
@@ -972,7 +972,7 @@ $json = '[
               ],
               "condition": {
                 "id": "ac622a20844b57ff76299f7b3b2c7886",
-                "value": " Yes"
+                "value": "Yes"
               }
             },
             {
@@ -1081,7 +1081,7 @@ $json = '[
               ],
               "condition": {
                 "id": "ac622a20844b57ff76299f7b3b2c7886",
-                "value": " Yes"
+                "value": "Yes"
               }
             },
             {
@@ -1102,7 +1102,7 @@ $json = '[
               ],
               "condition": {
                 "id": "ac622a20844b57ff76299f7b3b2c7886",
-                "value": " Yes"
+                "value": "Yes"
               }
             },
             {
