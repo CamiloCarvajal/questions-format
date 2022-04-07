@@ -3136,7 +3136,7 @@ $json = '[
               "type": "select",
               "options": [
                 {
-                  "value": "No",
+                  "value": "",
                   "label": "No"
                 },
                 {
