@@ -3156,6 +3156,12 @@ $json = '[
           "type": "client_tos",
           "link": "https://9gag.com/",
           "id": "privacy_policy"
+        },
+        {
+          "id": "privacy_policy2",
+          "text": "He leído la <a class="privacy-policy" data-turbo="false" href="https://vacantes.jauser.net/privacy-policy">Política de privacidad</a> y confirmo que Jauser almacenará mis datos personales para poder procesar mi solicitud de empleo.",
+          "type": "client_tos",
+          "required": 1
         }
         ]';
 
