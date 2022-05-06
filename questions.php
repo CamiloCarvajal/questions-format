@@ -19,6 +19,30 @@ $json = '[
   },
   {
     "required": true,
+    "min": "10",
+    "max": "20",
+    "question": "Cover letter",
+    "id": "cover_letter",
+    "type": "textarea"
+  },
+  {
+    "type": "select",
+    "options": [
+      {
+        "value": true,
+        "label": "Yes"
+      },
+      {
+        "value": false,
+        "label": "No"
+      }
+    ],
+    "id": 5287839,
+    "question": "Are you a freelancer?",
+    "required": true
+  },
+  {
+    "required": true,
     "min": "100",
     "max": "500",
     "question": "Salary expectations?",
