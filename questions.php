@@ -80,7 +80,7 @@ $json = '[
     "required": true,
     "type": "information",
     "id": "complianceVevraaGroup",
-    "text": "<strong>Invitation for Job Applicants to Self-Identify as a U.S. Veteran</strong><ul><li>A “disabled veteran” is one of the following:<ul><li>a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or</li><li>a person who was discharged or released from active duty because of a service-connected disability.</li></ul></li><li>A “recently separated veteran” means any veteran during the three-year period beginning on the date of such veterans discharge or release from active duty in the U.S. military, ground, naval, or air service.</li><li>An “active duty wartime or campaign badge veteran” means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.</li><li>An “Armed forces service medal veteran” means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.</li></ul>"
+    "text": "<strong>Invitation for Job Applicants to Self-Identify as a U.S. Veteran<\/strong><ul><li>A \u201cdisabled veteran\u201d is one of the following:<ul><li>a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or<\/li><li>a person who was discharged or released from active duty because of a service-connected disability.<\/li><\/ul><\/li><li>A \u201crecently separated veteran\u201d means any veteran during the three-year period beginning on the date of such veterans discharge or release from active duty in the U.S. military, ground, naval, or air service.<\/li><li>An \u201cactive duty wartime or campaign badge veteran\u201d means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.<\/li><li>An \u201cArmed forces service medal veteran\u201d means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.<\/li><\/ul>"
   },
   {
     "id": "select-13239",
@@ -138,7 +138,7 @@ $json = '[
     "id": "text-15059",
     "required": true,
     "type":"select",
-    "question":"IMPORTANT: please read and agree to our <a href=\\\"htt://9gag.com/\\\">Recruitment Privacity Statement</a>",
+    "question":"IMPORTANT: please read and agree to our <a href=\"https:\/\/9gag.com\/\">Recruitment Privacity Statement<\/a>",
     "options": [
       {
         "value": "1",
@@ -158,7 +158,7 @@ $json = '[
   },
   {
     "id": "privacy_policy2",
-    "text": "He leído la <a class=\\\"privacy-policy\\\" data-turbo=\\\"false\\\" href=\\\"https://vacantes.jauser.net/privacy-policy\\\">Política de privacidad</a> y confirmo que Jauser almacenará mis datos personales para poder procesar mi solicitud de empleo.",
+    "text": "He le\u00eddo la <a class=\"privacy-policy\" data-turbo=\"false\" href=\"https:\/\/vacantes.jauser.net\/privacy-policy\">Pol\u00edtica de privacidad<\/a> y confirmo que Jauser almacenar\u00e1 mis datos personales para poder procesar mi solicitud de empleo.",
     "type": "client_tos",
     "required": 1
   }
