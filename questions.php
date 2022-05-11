@@ -5,6 +5,7 @@ $json = '[
     "min": "9",
     "max": "15",
     "question": "Phone",
+    "format":"numeric_text",
     "id": "Phone",
     "type": "text"
   },
@@ -26,20 +27,21 @@ $json = '[
     "type": "textarea"
   },
   {
-    "type": "select",
-    "options": [
-      {
-        "value": true,
-        "label": "Yes"
-      },
-      {
-        "value": false,
-        "label": "No"
-      }
-    ],
-    "id": 5287839,
-    "question": "Are you a freelancer?",
-    "required": true
+    "required": true,
+    "min": "10",
+    "max": "20",
+    "question": "Cover letter",
+    "id": "cover_letter",
+    "type": "textarea"
+  },
+  {
+    "id":"startdate",
+    "required":true,
+    "type":"date",
+    "question":"Start date?",
+    "format":"dd/MM/yyyy",
+    "min":"01/06/2022",
+    "max":"03/07/2022"
   },
   {
     "required": true,
